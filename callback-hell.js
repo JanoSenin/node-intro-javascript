@@ -62,7 +62,7 @@ getEmpleado( id, ( err, empleado ) => {
         if ( err ) {
             return console.log(err);
         }
-    
+
         console.log('El empleado:', empleado, 'tiene un salario de:', salario )
     })
 

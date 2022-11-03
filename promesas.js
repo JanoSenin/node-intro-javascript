@@ -42,9 +42,7 @@ const getSalario = () => {
 
         const salario = salarios.find( s => s.id === id )?.salario;
 
-        ( salario ) 
-            ? resolve( salario )
-            : reject( `No existe salario con id ${ id }` );
+        ( salario ) ? resolve( salario ) : reject( `No existe salario con id ${ id }` );
     });
 }
 
